@@ -10,6 +10,12 @@ The provided Python script processes data from an Excel file, generates a standa
 
 A BCA (Bicinchoninic Acid) assay is a commonly used laboratory test in the field of molecular biology to determine the amount of protein in a sample. It works by measuring how much light is absorbed (absorbance value at a specific wavelength) by the proteins in the sample when a specific reagent is added. This light absorption is then used to calculate the concentration of protein. You can think of it like using a colorimeter to measure how dark a color is, which can tell you how much of a particular substance is present in your sample. This is a standard test when working with a variety of laboratory samples, and one which is used frequently when extracting protein from cells or tissue samples.
 
+
+
+![Standard curve output](standard_curve.png)
+
+*Figure: A standard curve output from the script.*
+
 ## Project Files
 
 Here's a quick overview of the files included in this repository:
@@ -36,6 +42,12 @@ To run the script, you'll need:
 ### 2. Preparing Your Data
 
 Make sure you have an Excel file similar to `bca_assay.xlsx`, which contains the absorbance readings from your 96-well plate. The file should have columns with absorbance data and a few rows at the bottom to be selected by the script.
+
+The Excel file should look like this:
+
+![Excel reading example](example_reading.png)
+
+*Figure: Example of the BCA Assay Excel file format*
 
 ### 3. Running the Script
 
