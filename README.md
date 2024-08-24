@@ -79,7 +79,7 @@ The Excel file should look like this:
 - **`standard_curve.png`**: This is the plot showing the relationship between protein concentration and absorbance. It also includes the regression line and its equation (the coefficient of determination).
 - **Python Output**: The script will print the equation of the standard curve and the protein concentrations calculated for any unknown samples you input.
 
-### 5. Future Improvements
+## Future Improvements
 
 - Developing a GUI interface using for instance the Python tkinter package. This would the script more user-friendly, rather than running the script in Python or through the terminal
   
